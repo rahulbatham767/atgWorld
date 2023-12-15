@@ -1,0 +1,213 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+.search-nav{
+    
+    width: 360px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding-left: 10px;
+}
+a.post-link{
+    text-decoration: none;
+    color: gray;
+
+}
+
+h1,h2,h3,h5{
+  font-size: 1rem;
+}
+p{
+  font-size: 1rem ;
+  padding: 0;
+  margin: 0;
+}
+
+.ellipsis {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2; /* Number of lines to show before truncating */
+  }
+
+  a{
+    text-decoration: none;
+    
+  }
+  .dropdown-menu{
+    position: absolute;
+    transform: translate3d(0px, 26px, 0px);
+    top: 0px;
+border: none;
+    box-shadow: none;
+   
+    padding-left: 0.6rem;
+    /* will-change: transform; */
+  }
+  .dropdown-menu a{
+    color:black;
+  }
+
+  .Signup-form{
+    width: 42rem;
+  }
+  .form-group{
+    width: 20rem;
+  
+}
+.custom-modal-width {
+  max-width: 800px; /* Set your desired width */
+  /* width: 38rem; */
+  font-size: 20px;
+}
+.search-nav:focus {
+  box-shadow: 0 0 0 0.25rem rgba(13,110,253,.25) !important;
+}
+.search-nav .form-control:focus {
+  box-shadow: none;
+}
+.input-group{
+  border: var(--bs-border-width) solid var(--bs-border-color);
+}
+
+.btn-close{
+ position: absolute;
+    right: 13px;
+    top: -21px;
+    background-color: rgb(199, 197, 197);
+    border-radius: 50%;
+}
+
+/* profile */
+.user-profile {
+  display: flex;
+  align-items: center;
+}
+
+.profile-pic-container {
+  border-radius: 50%;
+  overflow: hidden;
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.profile-pic {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.user-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.user-details .dropdown-toggle::after {
+  vertical-align: 0.145em !important;
+}
+
+.dropdown-container {
+  margin-top: 10px;
+}
+
+/* css for recommended group */
+
+.user-profile-container {
+  display: flex;
+justify-content: flex-start;  
+  align-items: center;
+  flex-direction: row;
+}
+
+.profile-pic-container {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-right: 10px;
+}
+
+.profile-pic {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.user-details {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+
+}
+
+.user-name {
+  font-size: 14px;
+  margin: 0;
+}
+
+
+.carousel-back{
+  display: none;
+}
+.carousel-join{
+  display: none;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* Adjust the alpha (last value) for opacity */
+}
+
+input.search-location:focus{
+  box-shadow: none;
+}
+.form-control:focus{
+  box-shadow: none;
+}
+
+@media (max-width: 400px) {
+  .custom-display {
+    display: none;
+
+  }
+  .phone-show{
+    display: flex !important;
+  }
+
+.phone-hide{
+  display: none !important;
+}
+
+.carousel-back{
+  position: absolute;
+  top: 1.2rem;
+  display: block !important;
+  left: 1rem;
+  color: white;
+  z-index: 100;
+}
+.carousel-join{
+  position: absolute;
+  top: 1.2rem;
+  display: block !important;
+  right: 1rem;
+  color: white;
+  z-index: 100;
+}
+
+  .caption-content h3,p{
+    font-size: 0.8rem ;
+    margin: 0;
+  }
+  
+ 
+ 
+}

@@ -1,0 +1,48 @@
+[
+  {
+    "image": "/assets/image/post.png",
+    "icon": "✍️",
+    "type": "Article",
+    "heading": "Tax Benefits for Investment under National Pension Scheme launched by Government",
+    "paragraph": "I’ve worked in UX for the better part of a decade. From now on, I plan to rei…",
+    "profileImage": "/assets/profile/profile.png",
+    "name": "Sarthak Kamra",
+    "views": "1.4k"
+   
+  },
+  {
+    "image": "/assets/image/post1.png",
+    "icon": "",
+    "type": "🔬️ Education",
+    "heading": "Tax Benefits for Investment under National Pension Scheme launched by Government",
+    "paragraph": "I’ve worked in UX for the better part of a decade. From now on, I plan to rei…",
+    "profileImage": "/assets/profile/profile1.png",
+    "name": "Sarah West",
+    "views": "1.4k"
+  },
+  {
+    "category": "meeting",
+    "image": "/assets/image/post2.png",
+    "icon": "",
+    "type": "🗓️ Meetup",
+    "date":"Fri, 12 Oct, 2018",
+    "heading": "Finance & Investment Elite Social Mixer @Lujiazui",
+    "location":"Ahmedabad, India",
+    "paragraph": "",
+    "profileImage": "/assets/profile/profile2.png",
+    "name": "Ronal Jones",
+    "views": "1.4k"
+  },
+  {
+    "category": "job",
+    "image": "/assets/image/post2.png",
+    "icon": "",
+    "type": "💼️ Job",
+    "heading": "Software Developer",
+    "paragraph": "I’ve worked in UX for the better part of a decade. From now on, I plan to rei…",
+    "location":"Ahmedabad, India",
+    "profileImage": "/assets/profile/profile3.png",
+    "name": "Joseph Gray",
+    "views": "1.4k"
+  }
+]
